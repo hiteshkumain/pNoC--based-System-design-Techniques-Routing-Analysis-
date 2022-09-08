@@ -1,0 +1,18 @@
+
+The results for the optical link starts from the core (1 & 2) towards the core (4 & 1) in Mesh-based ONoC are as following:
+Wavelength, Signal power (dBm), Incoherent crosstalk noise power (dBm), Coherent crosstalk (dBm), SNR (no coherent crosstalk)(dB), SNR (coherent crosstalk + incoherent crosstalk)(dB), SNR (signal power - coherent crosstalk)(dB)
+1,-6.41368,-2.79399,-35.1661,-3.61969,-3.6222,-3.62548
+2,-6.41393,-2.79449,-34.5708,-3.61944,-3.62232,-3.62608
+3,-6.41417,-2.79498,-34.0422,-3.61919,-3.62245,-3.6267
+4,-6.41442,-2.79548,-33.5684,-3.61895,-3.62258,-3.62732
+5,-6.41467,-2.79597,-33.143,-3.6187,-3.62271,-3.62793
+6,-6.41491,-2.79646,-32.7539,-3.61845,-3.62283,-3.62855
+7,-6.41516,-2.79696,-32.3985,-3.6182,-3.62296,-3.62917
+8,-6.41541,-2.79745,-32.0686,-3.61796,-3.62309,-3.62979
+
+The worst-case results among 8 different wavelengths are as the following:
+Wavelength[8] has the worst-case Singal Power of -6.41541 dBm
+Wavelength[1] has the worst-case Incoherent Crosstalk Noise Power of -2.79399 dBm
+Wavelength[8] has the worst-case Coherent Crosstalk Power of -32.0686 dBm
+Wavelength[1] has the worst-case SNR (no coherent crosstalk) of -3.61969 dB
+

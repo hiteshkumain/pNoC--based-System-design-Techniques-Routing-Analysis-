@@ -1,0 +1,29 @@
+Files Discription:
+>>CommGenerator.cpp:
+	This program file Takes M,N and max PKT size as input and generates a communication graph matrix [Randomly].
+	The Communication Graph is a 2d adjancency matrix where the rows and column determines the cores and value 
+	decide the packets to be transmitted.
+		INPUT:- 
+		>>M N          
+		>>Packet Size
+		OUTPUT Filename: CommGraph.txt
+
+>>Config.txt
+	This file contains the configurations of the NOC:
+	>>Number of tasks 	: N_tasks
+	>>Topology 		: [M] X [N]
+	>>Mapping		: Each Core has some task associated with it done via mapping(Optimized).
+
+
+>>generateTraceFile.cpp
+	This file will randomly generate the trace file, which carries following information
+	<t, Source, Destination, pkt>
+	OUTPUT Filename : trace.txt
+
+
+order of exe: 
+1.	generateCommGraph.cpp -> CommGraph.txt
+2.	generateTraceFile.cpp -> trace.txt	
+
+		
+
