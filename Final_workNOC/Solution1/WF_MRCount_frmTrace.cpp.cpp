@@ -1,3 +1,8 @@
+/*
+Copyright Hitesh Kumain
+raise request for modification 
+email h20210068@goa.bits-pilani.ac.in
+*/
 #include <iostream>
 #include <math.h>
 #include <string.h>
