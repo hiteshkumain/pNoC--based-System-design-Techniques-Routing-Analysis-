@@ -1,4 +1,11 @@
 //Communication matrix Generator
+/*
+Copyright Hitesh Kumain
+raise request for modification 
+email h20210068@goa.bits-pilani.ac.in
+*/
+
+
 #include <iostream>
 #include <fstream>
 int M;  // topology M*N 
